@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>TEXTLY- VIGNESH APP</title>
+</head>
+
+<body style="background-color:GreenYellow;">
+    <form action="Translate_Results" method="post">
+        <h1 style="text-align:center"; font size="+2"><b><strong>TEXTLY - EVERYTHING WITH TEXT</strong></b></h1>
+        <h2 style="text-align:center" ><b><sub>Author : VIGNESH</sub></b></h2>
+        <textarea style="resize:none" id="Write Something" name="Write Something" placeholder="Write Something" rows="4" cols="50"></textarea>
+
+        <!-- <textarea id="Show" name="Write Something" rows="4" cols="50"></textarea> -->
+
+        <label for="Language">Language:</label>
+<select id="Lan" name="Lang">
+  <option value="English">English</option>
+  <option value="Tamil">Tamil</option>
+  <option value="Hindi">Hindi</option>
+  <option value="Malayalam">Malayalm</option>
+  <option value="Telugu">Telegu</option>
+  <option value="French">French</option>
+  
+</select>
+
+        <button type = 'submit'>Translate</button>
+    </form>
+    
+    <b style="text-align:center">{{prediction_text}}</b>
+
+
+</body>
+<scrpit src= 'static/abc.js'></scrpit>
+
+
+</html>
